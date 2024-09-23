@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.12.0-pre](https://github.com/devflowinc/trieve/compare/v0.11.9-pre...v0.12.0-pre) (2024-09-23)
+
+
+### Features
+
+* add refresh chunk count button to dashboard ([9aa5f1c](https://github.com/devflowinc/trieve/commit/9aa5f1c18683238a01a2f54f0b7af871afd90a12))
+* add scraping config as an option to setup when creating a dataset ([7a9f36c](https://github.com/devflowinc/trieve/commit/7a9f36c0fd3239139a8293a5ed9e9079d6f36e05))
+* copy ids in dashboards ([fb2bdd9](https://github.com/devflowinc/trieve/commit/fb2bdd98e7a0d6d5fd55a9ed7f7dce6f40ec4fb3))
+* datasetstart checklist component for easier onboarding ([68560aa](https://github.com/devflowinc/trieve/commit/68560aab9fd70161da6cbacbb930f9cb80ddee4d))
+* refactor org selector and dataset selector display ([37a8f4e](https://github.com/devflowinc/trieve/commit/37a8f4e8bfafc9ee1b712410a286e31573cf05f1))
+* replace all https to http ([f92e6f9](https://github.com/devflowinc/trieve/commit/f92e6f9cd1abc2345aebd7718d84a8b5d3cb8c2e))
+* show org+dataset selector on dataset page and change text to make dataset creation more obvious ([928d4b5](https://github.com/devflowinc/trieve/commit/928d4b590583fe1a7d9ba8c7e0ae0a551c7cbed4))
+
+
+### Cleanup
+
+* add python SDK and remove duplicate detection feature from README ([e2c5082](https://github.com/devflowinc/trieve/commit/e2c508207113651560442164fb143a78bd247856))
+* add tooltips and advanced options toggle to create dataset modal for ease of use ([58fbe8c](https://github.com/devflowinc/trieve/commit/58fbe8cbd52343cef42a27e0731f5ac2aa9712bb))
+* allow println's ([83e017e](https://github.com/devflowinc/trieve/commit/83e017efe05bc3f633f69c3f127f3b7c702a4c76))
+* apply light edits to scraper config for better defaults and link tracking plus empty chunk avoidance ([51663e6](https://github.com/devflowinc/trieve/commit/51663e6053175754f42364688a98b37fe63454da))
+* fix auth issues for /top analytics route ([f4cc2ac](https://github.com/devflowinc/trieve/commit/f4cc2ac18212d94fe5a841f982cdc8f26db108bf))
+* handle dashboard redirects for 404s for browsers with saved paths ([4bfaafa](https://github.com/devflowinc/trieve/commit/4bfaafab52d8df5952acf6b0efa3bd6185a0c32c))
+* prevent panic from split_at in search_operator ([540a6d9](https://github.com/devflowinc/trieve/commit/540a6d913317e8df18b727927d55e22ac58556fc))
+* remove eslint_report.json from repo ([866da79](https://github.com/devflowinc/trieve/commit/866da790ccc8d051e5daa6239447ac75f3c17def))
+* various dashboard improvements like dataset selector bugfixes and better text in create dataset modal for info ([bd4da07](https://github.com/devflowinc/trieve/commit/bd4da0713e3f5c79c557e0c763ce4f9cf09d6a2e))
+
+
+### Bug Fixes
+
+* find not a function for dataset memo ([a21096e](https://github.com/devflowinc/trieve/commit/a21096ee271ad372f3289d27a9766d7f0113426f))
+* fix crawl worker docker push action ([320301d](https://github.com/devflowinc/trieve/commit/320301d3daad6b64019a31ef90db9f75635ad0d0))
+* map not existing in NavbarDatasetSelector ([8c6742b](https://github.com/devflowinc/trieve/commit/8c6742b0973e33353ce8cc0f7e5845cd69b610c1))
+* scope top datasets to organization ([c69bd5a](https://github.com/devflowinc/trieve/commit/c69bd5af80195826a6e085b22dad505b36dde9a1))
+
 ## [0.11.9-pre](https://github.com/devflowinc/trieve/compare/v0.11.8...v0.11.9-pre) (2024-09-20)
 
 
